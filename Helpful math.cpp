@@ -9,6 +9,7 @@ int main()
     int c=0;
     string s="";
     cin>>s;
+    //seperatig '+' from the sting and storing number string in an array
     for (int i = 0; i < s.length(); i++)
     {
         if(s[i] == '+'){
